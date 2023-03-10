@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+
+/* reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(247, 247, 227);
+    max-width: 100%;
+    margin: auto;
+    padding-left: 9%;
+    padding-right: 7%;
+    padding-bottom: 27%;
+}
+.container__title {
+    font-family: 'Catamaran';
+    font-size: 48px;
+}
+.container__text {
+    font-family: 'Catamaran';
+    font-size: 24px;
+    margin-bottom: 1%;
+}
+.container__line {
+    background-color: rgb(202, 202, 202);
+    height: 1px;
+    margin-bottom: 1%;
+}
+.container__part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.container__button {
+    background-color: rgb(247, 247, 227);
+}
+.container__span {
+    font-family: 'Catamaran';
+    font-size: 24px;
+    margin-bottom: 1%;
+}
+.container__spanactive {
+    font-family: 'Catamaran';
+    font-size: 24px;
+    margin-bottom: 1%;
+    display: none;
+}
+.container__image {
+    display: none;
+    width: 30%;
+    height: 30%;
+}
+.container__bigpart {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
