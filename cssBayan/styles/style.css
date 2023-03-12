@@ -70,25 +70,31 @@ body {
 }
 .container__button {
     background-color: rgb(247, 247, 227);
-}
-.container__span {
     font-family: 'Catamaran';
-    font-size: 24px;
-    margin-bottom: 1%;
-}
-.container__spanactive {
-    font-family: 'Catamaran';
-    font-size: 24px;
-    margin-bottom: 1%;
-    display: none;
+    font-size: 28px;
 }
 .container__image {
     display: none;
     width: 30%;
     height: 30%;
+    margin: 0 auto;
 }
 .container__bigpart {
-    text-align: center;
     margin-bottom: 1%;
 }
+.container__bigpart:hover .container__text {
+    color: rgb(19, 19, 138);
+    cursor: pointer;
+} 
+.container__bigpart:hover .container__image {
+    display: block;
+    cursor: pointer;
+}
+.container__bigpart:hover .container__button {
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.container__bigpart:hover .container__part {
+    cursor: pointer;
+} 
 
