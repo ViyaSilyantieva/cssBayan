@@ -75,24 +75,26 @@ body {
     font-size: 28px;
 }
 .container__image {
-    display: none;
-    width: 30%;
-    height: 30%;
-    margin: 0 auto;
+    width: 0;
+    height: 0;
+    margin-bottom: 1%;
 }
 .container__bigpart {
-    margin-bottom: 1%;
+    text-align: center;
 }
 .container__bigpart:hover .container__text {
     color: rgb(19, 19, 138);
     cursor: pointer;
 } 
 .container__bigpart:hover .container__image {
-    display: block;
     cursor: pointer;
+    width: 20%;
+    height: 20%;
+    transition: 2s;
 }
 .container__bigpart:hover .container__button {
     transform: rotate(45deg);
+    transition: 2s;
     cursor: pointer;
 }
 .container__bigpart:hover .container__part {
